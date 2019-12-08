@@ -1,0 +1,15 @@
+{
+  "name": "dockerpoc",
+  "version": "1.0.0",
+  "description": "POC for usage of docker on nodejs",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xicoder96",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
