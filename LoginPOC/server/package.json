@@ -1,0 +1,29 @@
+{
+  "name": "poc1",
+  "version": "1.0.0",
+  "description": "POC Time",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -timeout 100000",
+    "start": "nodemon server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "author": "xicoder96",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.0",
+    "rootpath": "^0.1.2",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
