@@ -1,0 +1,28 @@
+/* Code */
+
+
+//HERE WE WILL COLLECT OBJECT FROM THE SERVER
+
+
+var assert = require('assert');
+module.exports = Response;
+/* Test */
+describe('Test for All posts in this Catagories', function () {
+
+	it('should return true if success', function(){
+		var isStatus = Response.status;
+		var isMessage = Response.message;
+
+		assert.equal(isStatus,true);
+		assert.equal(isMessage,"Fetched Latest Post");
+	}); 
+
+	it('should return false if fail', function(){
+		var isStatus = Response.status;
+		var isMessage = Response.message;
+
+		assert.equal(isStatus,false);
+		assert.notEqual(isMessage,"Post Not Found");
+	});
+
+});

@@ -1,0 +1,25 @@
+/* Code */
+
+
+//HERE WE WILL COLLECT OBJECT FROM THE SERVER
+
+
+var assert = require('assert');
+module.exports = Response;
+/* Test */
+describe('Test for update post details', function () {
+
+	it('should return true if success', function(){
+		var isStatus = Response.status;
+		assert.equal(isStatus,true);
+		
+	}); 
+
+	it('should return false if failure', function(){
+		var isStatus = Response.status;
+
+		assert.equal(isStatus,false);
+
+	});
+
+});

@@ -1,0 +1,32 @@
+/* Code */
+
+
+//HERE WE WILL COLLECT OBJECT FROM THE SERVER
+
+
+var assert = require('assert');
+module.exports = Response;
+/* Test */
+describe('Test for Delete Post', function () {
+
+	it('should return true if success', function(){
+		var isStatus = Response.status;
+		var isMessage = Response.message;
+		var isData = Response.data;
+
+		assert.equal(isStatus,true);
+		assert.equal(isMessage,"Deleted Successfully");
+		assert.equal(isData,null);
+	}); 
+
+	it('should return false if fail', function(){
+		var isStatus = Response.status;
+		var isMessage = Response.message;
+		var isData = Response.data;
+
+		assert.equal(isStatus,false);
+		assert.notEqual(isMessage,"Post Not Found!");
+		assert.equal(isData,null);
+	});
+
+});
