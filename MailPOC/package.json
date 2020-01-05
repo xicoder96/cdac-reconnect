@@ -1,0 +1,17 @@
+{
+  "name": "mailpoc",
+  "version": "1.0.0",
+  "description": "POC For mailing in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xicoder96",
+  "license": "ISC",
+  "dependencies": {
+    "email-templates": "^6.1.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.2",
+    "pub": "^0.2.0"
+  }
+}
